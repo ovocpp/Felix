@@ -1,0 +1,6 @@
+{"code-runner.runInTerminal": true,
+"code-runner.executorMap": {
+    "c": "cd $dir && chcp 65001 && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
+    "cpp": "cd $dir && chcp 65001 && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
+}
+}
